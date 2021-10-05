@@ -1,0 +1,46 @@
+{
+  "VALIDATION": {
+    "ERROR": {
+      "GENERIC": "A validation error occurred while processing your request",
+      "REQUIRED": {
+        "NAME": "Name is required",
+        "EMAIL": "Email is required",
+        "PASSWORD": "Password is required",
+        "OLD_PASSWORD": "Old password is required",
+        "IMAGE": "Image file is required"
+      },
+      "INVALID": {
+        "EMAIL": "Please enter a valid email",
+        "PASSWORD": "Password should contains atleast 1 uppercase, 1 lowercase, 1 number, 1 special character and should be of minimum length of 8 characters"
+      },
+      "EMAIL_EXIST": "An account exist with same email address",
+      "USER_NOT_FOUND": "No account exist with provided email",
+      "INCORRECT_PASSWORD": "Password is incorrect",
+      "UNAUTHORIZED": "Not authorized",
+      "IMAGE_NOT_FOUND": "No image found with mentioned id"
+    }
+  },
+  "SUCCESS": {
+    "USER": {
+      "REGISTRATION": "User registered successfully",
+      "LOGIN": "User logged in successfully",
+      "UPDATE": "User updated successfully",
+      "PASSWORD_UPDATE": "User password updated successfully"
+    },
+    "IMAGE": {
+      "UPLOAD": "Image uploaded successfully",
+      "DELETE": "Image deletes successfully"
+    }
+  },
+  "SERVER": {
+    "HTTP_CODES": {
+      "CREATED": 201,
+      "SUCCESS": 200,
+      "SERVER_ERROR": 500,
+      "NOT_FOUND": 404,
+      "UNAUTHORIZED": 401,
+      "FORBIDDEN": 403,
+      "UNPROCESSABLE_ENTITY": 422
+    }
+  }
+}
