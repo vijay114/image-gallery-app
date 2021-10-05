@@ -1,0 +1,16 @@
+{
+  "AUTH": {
+    "REGISTER": "auth/signup",
+    "LOGIN": "auth/login"
+  },
+  "GALLERY": {
+    "LIST_PICTURES": "gallery/list",
+    "UPLOAD_PICTURE": "gallery/upload",
+    "DELETE_PICTURE": "gallery/delete/"
+  },
+  "USER": {
+    "GET_USER_DETAILS": "user/profile",
+    "UPDATE": "user/update",
+    "UPDATE_PASSWORD": "user/updatePassword"
+  }
+}

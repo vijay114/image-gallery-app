@@ -1,0 +1,18 @@
+{
+  "VALIDATION": {
+    "ERROR": {
+      "REQUIRED": {
+        "NAME": "Name is required",
+        "EMAIL": "Email is required",
+        "PASSWORD": "Password is required",
+        "CONFIRM_PASSWORD": "Confirm Password is required",
+        "OLD_PASSWORD": "Old Password is required"
+      },
+      "INVALID": {
+          "EMAIL": "Please enter a valid email",
+          "PASSWORD": "Password should contains atleast 1 uppercase, 1 lowercase, 1 number, 1 special character and should be of minimum length of 8 characters",
+          "CONFIRM_PASSWORD": "Confirm password should be same as Password"
+      }
+    }
+  }
+}
