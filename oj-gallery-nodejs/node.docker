@@ -1,0 +1,13 @@
+FROM node:12.18.1
+
+WORKDIR /app
+
+COPY ["oj-gallery-nodejs/package.json", "oj-gallery-nodejs/package-lock.json*", "./"]
+
+RUN npm install
+
+RUN npm install bcrypt
+
+COPY ["*", "./"]
+
+CMD [ "node", "app.js" ]

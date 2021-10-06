@@ -1,0 +1,12 @@
+FROM node:12.18.1
+
+WORKDIR /app
+
+COPY ["oj-gallery-react/package.json", "oj-gallery-react/package-lock.json*", "./"]
+
+RUN npm install
+
+COPY ["*", "./"]
+
+
+CMD ["npm", "start"]

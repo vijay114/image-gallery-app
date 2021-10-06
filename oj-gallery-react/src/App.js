@@ -85,9 +85,6 @@ function App(props) {
           {authContext.isLoggedIn && <UpdatePassword />}
           {!authContext.isLoggedIn && <Redirect to="/sign-in" />}
         </Route>
-        <Route path="*">
-          <Redirect to="/" />
-        </Route>
         <Footer />
       </React.Fragment>
     </Router>
