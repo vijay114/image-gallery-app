@@ -1,7 +1,9 @@
 # OJ Gallery
 
-This app allows user to create an accound and manage images
-App front end is built using React and backend is build using nodeJS
+This application allows user to create an account and manage images
+Application front end is built using React and backend is build using nodeJS
+Database Used is MongoDB
+Application is integrated with Swagger
 
 ### Contents
 
