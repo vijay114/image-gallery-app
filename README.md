@@ -99,6 +99,10 @@ You can view the exposed APIs in Swagger on following url
 
 Navigate to oj-gallery-nodejs folder using terminal
 
+```bash
+cd <path-to-directory>/oj-gallery/oj-gallery-nodejs
+```
+
 Update environment values according to your local in .env file of oj-gallery-react folder
 
 Install node modules
