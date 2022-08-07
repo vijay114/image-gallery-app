@@ -1,4 +1,4 @@
-# OJ Gallery
+# Image Gallery Application
 
 This application allows user to create an account and manage images
 
